@@ -6,3 +6,9 @@
   font-weight: 900;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 760px) {
+  .logo {
+    left: 24px;
+  }
+}

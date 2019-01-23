@@ -21,6 +21,18 @@
   margin: 0 0 16px 0;
 }
 
+.header__icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  padding: 16px;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
 .button {
   border: solid 3px #fff;
   border-radius: 4px;

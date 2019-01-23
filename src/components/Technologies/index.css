@@ -14,3 +14,10 @@
   font-weight: normal;
   margin-top: 0;
 }
+
+@media screen and (max-width: 760px) {
+  .technologies {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+}

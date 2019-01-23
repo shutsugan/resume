@@ -19,3 +19,12 @@
   font-size: .9rem;
   font-weight: 700;
 }
+
+@media screen and (max-width: 760px) {
+  .work-experience__section {
+    width: 80%;
+    margin: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}

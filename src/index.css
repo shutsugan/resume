@@ -10,6 +10,8 @@
 }
 
 body {
+  overflow: scroll;
+  overflow-x: hidden;
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
@@ -26,4 +28,9 @@ code {
 
 a {
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
