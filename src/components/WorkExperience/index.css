@@ -1,0 +1,16 @@
+.work-experience {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  color: #fff;
+  scroll-snap-align: start;
+  padding-top: 100px;
+}
+
+.work-experience__title {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-top: 0;
+}

@@ -1,0 +1,21 @@
+.work-experience__section {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+}
+
+.work-experience__section-title {
+  margin-top: 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.work-experience__description {
+  width: 80%;
+  text-align: left;
+  line-height: 26px;
+}
+
+.work-experience__company {
+  font-size: .9rem;
+  font-weight: 700;
+}

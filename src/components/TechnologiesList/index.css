@@ -1,0 +1,16 @@
+.technologies__section {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+}
+
+.technologies__section-title {
+  font-size: .8rem;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.technologies__list li {
+  margin-top: 16px;
+}
