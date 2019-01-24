@@ -12,9 +12,6 @@
 body {
   overflow: scroll;
   overflow-x: hidden;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
